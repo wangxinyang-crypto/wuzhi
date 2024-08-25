@@ -1,0 +1,58 @@
+.nav {
+    overflow: hidden;
+}
+
+.secend_skill {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #b1191a;
+    padding-left: 14px;
+
+}
+
+.secend_skill_list ul li {
+    float: left;
+
+}
+
+.secend_skill_list ul li a {
+    display: block;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    padding: 0 30px;
+    text-align: center;
+    line-height: 47px;
+}
+
+.secend_skill_cont ul li {
+    float: left;
+}
+
+.secend_skill_cont ul li a {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.secend_skill_cont ul li:last-child a::after {
+    content: "\e911";
+    font-family: "icomoon";
+
+}
+
+.sk_bd ul li {
+    width: 287px;
+    height: 458px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    float: left;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
